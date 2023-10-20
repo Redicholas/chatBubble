@@ -1,5 +1,5 @@
 ## Just a little chat bubble that lets you open up a window to send a message. Enjoy :)<br />
-It´s built with React, TypeScript and Scss <br/>
+It´s built with React, TypeScript and Scss <br />
 ![Screenshot 2023-10-20 at 11 35 50](https://github.com/Redicholas/chatBubble/assets/95872411/4c95b4eb-02fa-4f06-9104-b04d54152e38)
 ![Screenshot 2023-10-20 at 11 35 46](https://github.com/Redicholas/chatBubble/assets/95872411/918f8c74-de86-43d5-938a-f570f3d792ef)
 
