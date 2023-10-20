@@ -8,6 +8,7 @@ const ChatForm = () => {
     email: "",
   });
   const [messageSent, setMessageSent] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -16,7 +17,7 @@ const ChatForm = () => {
       formState.message === "" ||
       formState.email === ""
     ) {
-      alert("Please fill out all fields.");
+      setError("Please fill out all fields.");
       return;
     }
     setMessageSent(true);
@@ -37,6 +38,7 @@ const ChatForm = () => {
             </h2>
           </div>
           <div className="formInputs">
+            {error && <p className="error">{error}</p>}
             <input
               type="text"
               value={formState.name}
