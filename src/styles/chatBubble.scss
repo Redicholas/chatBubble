@@ -1,0 +1,29 @@
+.chatBubble {
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+
+  i {
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    transition: opacity 0.15s ease-in-out;
+
+    &.fade-out {
+      opacity: 0;
+    }
+
+    &.fade-in {
+      opacity: 1;
+    }
+  }
+}
